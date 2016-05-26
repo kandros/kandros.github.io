@@ -38,6 +38,9 @@ footer {
   .copyright {
     margin-top: 4em;
     color: #d1d1d1;
+    a {
+      color: #d1d1d1;
+    }
     @include bp-small {
       text-align: center;
     }
