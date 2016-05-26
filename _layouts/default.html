@@ -35,9 +35,7 @@ Hello, there. I’m <strong>Jaga Santagostino</strong>. too <strike>lazy</strike
         </p>
 
       </div>
-        
-        <a class="twitter-timeline" href="https://twitter.com/kandros5591" data-widget-id="735947196785393665">Tweet di @kandros5591</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
       <!--<main>-->
         <!--<h2>Latest Work</h2>-->
         <!--{% for post in site.posts %}-->
@@ -49,19 +47,23 @@ Hello, there. I’m <strong>Jaga Santagostino</strong>. too <strike>lazy</strike
       <!--</main>-->
 
       <footer>
-        <!--<h2>Contact Me</h2>-->
+        <h2>Contact Me</h2>
 
-        <!--<p>-->
-        <!--Send me an <a href="mailto:jami0821@gmail.com?Subject=Hello,%20Jami!">email</a> or ping me on <a href="https://twitter.com/JamiGibbs">Twitter</a>. I’m also on <a href="https://github.com/jamigibbs">Github</a>, <a href="https://dribbble.com/JamiGibbs">Dribbble</a>, and <a href="https://www.linkedin.com/in/jami-gibbs-731985112-->
-<!--">Linkedin</a> if you’re into that sort of thing.-->
-        <!--</p>-->
+        <p>
+        Send me an <a href="mailto:kandros5591@gmail.com?Subject=Hello,%20Jaga">email</a> or ping me on <a href="https://twitter.com/kandros5591">Twitter</a>.
+        </p>
 
-        <p class="copyright">
+          <a class="twitter-timeline" href="https://twitter.com/kandros5591" data-widget-id="735947196785393665">Tweet di @kandros5591</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+          <p class="copyright">
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
             <br>
             forked by <a href="https://github.com/jamigibbs/portfolio">jami gibbs</a>'s beautiful theme.
         </p>
       </footer>
+
 
     </div>
 
@@ -69,7 +71,7 @@ Hello, there. I’m <strong>Jaga Santagostino</strong>. too <strike>lazy</strike
       <ul>
         <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
         <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://blog.jagasantagostino.com/"><i class="fa fa-medium"></i></a></li>
+        <li><a href="{{ site.blog }}/"><i class="fa fa-medium"></i></a></li>
       </ul>
     </div>
 
