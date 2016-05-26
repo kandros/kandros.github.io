@@ -22,16 +22,16 @@
       <div class="content-section">
 
         <p>
-Hello, there. I’m <strong>Jaga Santagostino</strong>. too <strike>lazy</strike> busy to write a worthwhile bio
+Hello, there. I’m <strong>Jaga Santagostino</strong>. too <strike>lazy</strike> busy to write a worthwhile bio.
         </p>
 
         <p>
-            I'm a software developer and <strong>open source</strong> lover
+            I'm a software developer and <strong>open source</strong> lover.
         </p>
 
         <p>
-            As a <strong>javascript</strong> stockholm syndrome victim i spend my days learning new thing about the JS ecosystem, sometimes i also teach it at
-            <a href="http://js-girls.org/">js-girls</a> as a tutor
+            As a <strong>javascript</strong> stockholm syndrome victim i spend my days learning new thing about the JS ecosystem, sometimes i also teach it as a
+            <a href="http://js-girls.org/">js-girls</a> tutor
         </p>
 
       </div>
@@ -73,16 +73,18 @@ Hello, there. I’m <strong>Jaga Santagostino</strong>. too <strike>lazy</strike
 
   </div>
 
-    <!--{% if site.google_analytics %}-->
-     <!--<script>-->
-       <!--(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
-       <!--(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
-       <!--m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
-       <!--})(window,document,'script','//www.google-analytics.com/analytics.js','ga');-->
-       <!--ga('create', '{{ site.google_analytics }}', 'auto');-->
-       <!--ga('send', 'pageview');-->
-     <!--</script>-->
-    <!--{% endif %}-->
+    {% if site.google_analytics %}
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-67865686-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    {% endif %}
 
   </body>
 </html>
