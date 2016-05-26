@@ -1,7 +1,16 @@
 ---
 layout: post
-title: Calculator
-git: https://github.com/jamigibbs/calculator
+title: test
+git: "https://github.com/jamigibbs/calculator"
+published: true
 ---
 
-A functional calculator that can perform basic operations built with JavaScript, jQuery, & Sass
+test test test
+
+![FWG_3440x1440.jpg]({{site.baseurl}}/_posts/FWG_3440x1440.jpg)
+
+![1.gif]({{site.baseurl}}/_posts/1.gif)
+
+
+
+
